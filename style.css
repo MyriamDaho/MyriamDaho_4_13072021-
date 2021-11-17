@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.small.png");
     background-size: 280px 280px;
 }
 
@@ -607,7 +607,6 @@ a[data-lightbox]:hover img {
 h1,h2,h3,h4,h5,h6,p,label,.btn,a {
     font-family: "helvetica";
     font-weight: 600;
-    color: #575757!important;
 }
 
 .container {
@@ -639,7 +638,13 @@ q{
     font-size:14px;
     font-style: italic;
 }
-
+.contactus{
+    background-color: #8abd8b;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+   
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -681,17 +686,27 @@ h3 {
 h4 {
     color: #333333!important;
 }
-
+.contact_title{
+    font-size: 2em;
+    color: #620806;
+}
+.contact_bloc{
+    color:#f5eded;
+    font-size: 1.2em;
+}
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
+.black {
+    color: #374631!important;
     font-size: 1.1em;
 }
-
+.textColor{
+    color:#f5f3f0;
+    font-size: 1.3em;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
     height: 100%;
@@ -714,8 +729,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
-}
+   }
 
 .bgc-white {
     background-color: #FFFFFF;
@@ -730,8 +744,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
-}
+    color: #f7b494!important;
+    }
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -773,14 +787,12 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere-small.jpg");
 }
-
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.small.jpg");
 }
-
-@media (max-width: 1024px) {
+    @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -975,12 +987,7 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
+
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
