@@ -604,16 +604,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-label,
-.btn,
-a {
+h1,h2,h3,h4,h5,h6,p,label,.btn,a {
     font-family: "helvetica";
     font-weight: 600;
     color: #575757!important;
@@ -703,6 +694,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    height: 100%;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -846,8 +839,7 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        
     }
 }
 
@@ -856,14 +848,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    #disqus_thread {
+    h1,h2,h3,h4,h5,h6,p,#disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
