@@ -696,10 +696,11 @@ h4 {
 }
 .contact_title {
   font-size: 2em;
+  font-weight: bold;
   color: #620806;
 }
 .contact_bloc {
-  color: #f5eded;
+  color: #0c0c0c;
   font-size: 1.2em;
 }
 .icons {
