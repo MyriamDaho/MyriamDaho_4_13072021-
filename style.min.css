@@ -613,11 +613,12 @@ h3 {
 }
 .contact_title {
   font-size: 2em;
+  font-weight: bold;
   color: #620806;
 }
 .contact_bloc {
   color: white;
-  font-size: 1.2em;
+  font-size: 1.25em;
 }
 .icons {
   margin-bottom: 14px;
@@ -628,7 +629,7 @@ h3 {
   font-size: 1.2em;
 }
 .textColor {
-  color: #ffffff;
+  color: #620806;
   font-size: 1.3em;
 }
 .portfolio-thumb {
